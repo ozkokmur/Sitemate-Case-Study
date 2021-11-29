@@ -20,7 +20,7 @@ function change(answer) // no ';' here
 {
     var el = document.getElementById("description");
     var ans = answer ? "Yes" : "Cancel";
-    el.title = "You just clicked " + '"' + ans + '"';
+    el.innerHTML = "You just clicked " + '"' + ans + '"';
 }
 
 const save = async () => {
